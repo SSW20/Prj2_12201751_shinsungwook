@@ -61,3 +61,4 @@ if __name__=='__main__':
 	print ("Decision Tree Test RMSE: ", calculate_RMSE(Y_test, dt_predictions))	
 	print ("Random Forest Test RMSE: ", calculate_RMSE(Y_test, rf_predictions))	
 	print ("SVM Test RMSE: ", calculate_RMSE(Y_test, svm_predictions))
+    
